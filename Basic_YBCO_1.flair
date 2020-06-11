@@ -1,0 +1,324 @@
+#!/usr/local/flair/flair
+# FLUKA Project file
+Version: 2
+Title: Basic geometry
+Input: Basic_YBCO_1.inp
+Submit: *Default
+Notes:
+Basic geometry with scaled values by 1e06
+Tabs: 0.1 0.32 0.56 0.81 1.0
+Page: Input
+DefMain: True
+LinkPrg: lfluka
+F77bound: True
+F77dline: False
+
+# Run information
+Run: <default>
+	Prev:     0
+	Last:     5
+	Status:   0
+	Pid:      0
+	StartRun: 0
+End
+
+# Material
+Material: 
+	alpha: 0
+	color: #101010
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: YBCO
+	alpha: 0
+	color: #C05010
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: BARIUM
+	alpha: 0
+	color: #907010
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: MgO
+	alpha: 0
+	color: #305030
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: MANGANESE
+	alpha: 0
+	color: #103050
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: LaMnO3
+	alpha: 0
+	color: #D050D0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: 316STEEL
+	alpha: 0
+	color: #40B070
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: Y2O3
+	alpha: 0
+	color: #C010B0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: 316LNSTEEL
+	alpha: 0
+	color: #20B030
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: MOLYBDNM
+	alpha: 0
+	color: #705090
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: LNTHNUM
+	alpha: 0
+	color: #C01090
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: HSTALLOY
+	alpha: 0
+	color: #903030
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: AL2O3
+	alpha: 0
+	color: #903090
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: COBOLT
+	alpha: 0
+	color: #E090B0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: LANTHANUM
+	alpha: 0
+	color: #409030
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: HASTEALLOY
+	alpha: 0
+	color: #D05050
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: SULPHER
+	alpha: 0
+	color: #B07010
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: MANGANSE
+	alpha: 0
+	color: #5030D0
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: PHOSPHOR
+	alpha: 0
+	color: #E05030
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: YTTRIUM
+	alpha: 0
+	color: #601010
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: MOLYBDENUM
+	alpha: 0
+	color: #103090
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: YITTRIUM
+	alpha: 0
+	color: #E0D030
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Material
+Material: MAGNESIUM
+	alpha: 0
+	color: #807070
+	fuzz: 0.0
+	ior: 1.0
+	shine: 10.0
+	specular: 0.0
+End
+
+# Geometry Information
+Geometry:
+	Frame.bsplit: 0.5
+	Frame.tsplit: 0.5
+	Frame.vsplit: 0.582508250825
+End
+
+# Geometry plot "GeoViewer Red plot"
+Plot: Red
+	Format: .eps
+	Type:   Geometry
+	basisu: 1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	coord: X-Y
+	extends: 4.57158e-06 2.76679e-06
+	labels: 1
+	layer: Media
+	origin: -3.96307e-07 -5.58906e-08 0
+	subtype: Material
+	title: GeoViewer Red plot
+End
+
+# Geometry plot "GeoViewer Green plot"
+Plot: Green
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	boundaries: 1
+	coord: Z-X
+	extends: 5.19187e-06 3.14503e-06
+	labels: 1
+	layer: Media
+	origin: -1.88842e-07 -19.3334 -6.84917e-07
+	subtype: Material
+	title: GeoViewer Green plot
+End
+
+# Geometry plot "GeoViewer Blue plot"
+Plot: Blue
+	Format: .eps
+	Type:   Geometry
+	basisu: 0 0 1
+	basisv: 0 1 0
+	boundaries: 1
+	coord: Z-Y
+	extends: 7.47632e-06 3.18013e-06
+	labels: 1
+	layer: Media
+	origin: 0 -6.43687e-07 -6.51497e-07
+	subtype: Material
+	title: GeoViewer Blue plot
+End
+
+# Geometry plot "GeoViewer Magenta plot"
+Plot: Magenta
+	Format: .eps
+	Type:   Geometry
+	basisu: -1 0 0
+	basisv: 0 1 0
+	boundaries: 1
+	coord: X-Y
+	extends: 1.62302e-07 6.90989e-08
+	labels: 1
+	layer: Media
+	origin: 1.44566e-06 2.58398e-07 0
+	subtype: Material
+	title: GeoViewer Magenta plot
+End
